@@ -1,6 +1,6 @@
 package Constructor;
 
-public class A1 {
+public class A {
 
 	public static void start() {
 		System.out.println("A======Start ");
