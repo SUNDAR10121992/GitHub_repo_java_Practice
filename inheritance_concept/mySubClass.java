@@ -1,4 +1,4 @@
-package inheritance_Concept;
+package inheritance_concept;
 
 public class mySubClass extends mysuperClass {
 	String commonstr = "Sub common str";

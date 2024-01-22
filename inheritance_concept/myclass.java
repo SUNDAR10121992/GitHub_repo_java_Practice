@@ -1,4 +1,4 @@
-package inheritance_Concept;
+package inheritance_concept;
 
 public class myclass {
 	public static void main(String[] args) {

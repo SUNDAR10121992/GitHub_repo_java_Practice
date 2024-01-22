@@ -1,4 +1,4 @@
-package inheritance_Concept;
+package inheritance_concept;
 
 public class mysuperClass {
 	String superstr = "super class string ";
