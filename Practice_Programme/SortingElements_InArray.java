@@ -23,7 +23,8 @@ public class SortingElements_InArray {
 				}
 			}
 		}
-		System.out.println("Arrays after sorting " + Arrays.toString(a));
+		///
+	  System.out.println("Arrays after sorting " + Arrays.toString(a));
 
 	}
 }
