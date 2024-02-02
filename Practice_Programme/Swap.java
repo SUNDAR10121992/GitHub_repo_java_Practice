@@ -39,21 +39,7 @@ public class Swap {
 		
 		System.out.println("After 4th logic  a is "+a+"  and b is  "+b);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		
 	}
 }

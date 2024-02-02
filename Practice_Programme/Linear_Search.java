@@ -9,19 +9,14 @@ public class Linear_Search {
 		int search_ele = 33;
 		for (int i = 0; i < a.length; i++) {
 			// System.out.println(a[i]);
-			if (search_ele == a[i]) 
-			{
+			if (search_ele == a[i]) {
 				System.out.println("element found " + i);
 				status = true;
 				break;
 			}
-
 		}
 		if (status == false) {
-
 			System.out.println("Elemt Not found ");
-
 		}
 	}
-
 }

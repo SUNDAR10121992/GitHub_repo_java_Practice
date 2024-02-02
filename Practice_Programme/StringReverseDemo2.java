@@ -7,7 +7,7 @@ public class StringReverseDemo2 {
 
 		String rev="";
 		int len=str.length();
-		char a[]=str.toCharArray();
+		//char a[]=str.toCharArray();
 		for(int i=len-1;i>=0;i--)
 		{
 			rev=rev+str.charAt(i);

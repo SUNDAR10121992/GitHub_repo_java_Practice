@@ -12,16 +12,14 @@ public class Duplicates_elment_in_Array1 {
 				if (s[i] == s[j]) {
 					System.out.println("Found duplicate element  is " + s[i]);
 					count++;
-
-					flag = true;
+				flag = true;
 				}
-
 			}
 
 		}
 		System.out.println("Total number of  duplicate are  " + count);
-		if (flag == false) {
-			System.out.println("Not found");
+	if (flag == false) {
+		System.out.println("Not found");
 		}
 	}
 }

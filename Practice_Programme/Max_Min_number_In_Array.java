@@ -10,7 +10,6 @@ public class Max_Min_number_In_Array {
 		for (int i = 0; i <= a.length - 1; i++) {
 			if (a[i] > max) {
 				max = a[i];
-
 			}
 		}
 		System.out.println("maximum ele in array is  " + max);

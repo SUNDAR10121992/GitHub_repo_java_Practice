@@ -7,14 +7,13 @@ public class CountOfEven_and_OddNuber {
 		int evenCount = 0;
 		int oddCount = 0;
 		int count = 0;
-
 		while (num > 0) {
-
 			int rem = num % 10;
-
-			if (rem % 2 == 0) {
+			if (rem % 2 == 0)
+			{
 				evenCount++;
-			} else {
+			} else 
+			{
 				oddCount++;
 			}
 			num = num / 10;
@@ -23,8 +22,7 @@ public class CountOfEven_and_OddNuber {
 
 		System.out.println(n + " in this number  even digits are ==" + evenCount);
 		System.out.println(n + " in this number  odd digits are==" + oddCount);
-		System.out.print("        ");
-		System.out.println(n + "  count is " + count);
+		System.out.println(n + " total count of digits is " + count);
 	}
 
 	public static void main(String args[]) {

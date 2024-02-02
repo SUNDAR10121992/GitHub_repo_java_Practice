@@ -3,9 +3,8 @@ package Practice_Programme;
 public class Palindrome_number {
 	public static void main(String args[]) {
 //		ispalindrome(123);
-	ispalindrome(333);
-		//ispalindrome(1551);
-
+		ispalindrome(121);
+		// ispalindrome(1551);
 	}
 
 	public static void ispalindrome(int num) {
@@ -13,23 +12,29 @@ public class Palindrome_number {
 		int r = 0;
 		int t;
 		t = num;
-
 		while (num > 0) {
 			r = num % 10;
-
 			sum = (sum * 10) + r;
 			num = num / 10;
-
 		}
-		if (t == sum)
-
-		{
-			System.out.println("is palindrome ");
-
+		if (t == sum) {
+			System.out.println("Is palindrome ");
 		} else {
-			System.out.println("is not palindrome ");
-
+			System.out.println("Is Not palindrome");
 		}
 
+//		while (num > 0) {
+//			r = num % 10;
+//			sum = (sum * 10) + r;
+//			num = num / 10;
+//		}
+//		if (t == sum) {
+//			System.out.println("is palindrome ");
+//
+//		} else {
+//			System.out.println("is not palindrome ");
+//
+//		}
+//
 	}
 }
