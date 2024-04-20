@@ -1,6 +1,8 @@
 package OopsConcept;
 
-public class testCar extends BMW  {
+import Constructor.newclass;
+
+public class testCar extends BMW {
 	public static void main(String args[]) {
 
 		// Compile time polymorphism or static poly:It means java will decide which
@@ -12,7 +14,11 @@ public class testCar extends BMW  {
 		b.refuel();
 		// b.engine();
 		b.theftSafety();
-	b.engine();
+		b.engine();
+		Vehicle v = new BMW();
+		v.engine();
+		v.start();
+
 		// child class object can be referred by Parent class refernce variable----is
 		// called --dynamic polymorphism or run time polymorphosm
 		// or Top Casting

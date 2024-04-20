@@ -1,19 +1,18 @@
 package Constructor;
 
 public class A {
+	int i = 12;
+	String string;
 
-	public static void start() {
-		System.out.println("A======Start ");
-
+	public A() {
+		System.out.println("parent class Constructor with no param");
 	}
 
-	public void stop() {
-		System.out.println("A====Stop ");
-
+	public A(int a) {
+		System.out.println("parent  class constructoer with single param " + a);
 	}
 
-	public void refuel() {
-		System.out.println("A============refule ");
-
+	public A(int i, int j) {
+		System.out.println("parant constructor with 2 param " + i + " " + j);
 	}
 }

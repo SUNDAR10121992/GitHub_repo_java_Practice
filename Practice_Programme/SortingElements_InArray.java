@@ -15,7 +15,7 @@ public class SortingElements_InArray {
 
 		for (int i = 0; i < len - 1; i++)// number of passese
 		{
-			for (int j = 0; j < len-1; j++) {
+			for (int j = 0; j < len - 1; j++) {
 				if (a[j] > a[j + 1]) {
 					int temp = a[j];
 					a[j] = a[j + 1];
@@ -23,8 +23,7 @@ public class SortingElements_InArray {
 				}
 			}
 		}
-		///
-	  System.out.println("Arrays after sorting " + Arrays.toString(a));
+		System.out.println("Arrays after sorting " + Arrays.toString(a));
 
 	}
 }
