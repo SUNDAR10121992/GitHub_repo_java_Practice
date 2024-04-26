@@ -1,6 +1,6 @@
 package OopsConcept;
 
-import Constructor.newclass;
+
 
 public class testCar extends BMW {
 	public static void main(String args[]) {
