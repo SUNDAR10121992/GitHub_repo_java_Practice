@@ -10,11 +10,12 @@ public class Reverse_Number {
 		System.out.println("Enter Number");
 
 		int num = sc.nextInt();
-
-         //logic 2 
+       
+		//logic 2 
+	
 		StringBuffer rev;
 
-		StringBuffer sb = new StringBuffer(String.valueOf(num));
+	   	StringBuffer sb = new StringBuffer(String.valueOf(num));
 
 		rev = sb.reverse();
 
@@ -22,8 +23,11 @@ public class Reverse_Number {
         
 		StringBuilder sb1 = new StringBuilder();
 
+		
 		sb1.append(num);
+		
 		sb1.reverse();
+		
 		System.out.println(sb1);
 
 	}

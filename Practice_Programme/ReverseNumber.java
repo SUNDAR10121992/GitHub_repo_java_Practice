@@ -4,13 +4,17 @@ import java.util.Scanner;
 
 public class ReverseNumber {
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
 		
-		System.out.println("enter number: ");
-		int num=sc.nextInt();
-		int org_Num=num;
-		
+		  Scanner sc=new Scanner(System.in);
+		  
+		  System.out.println("enter number: ");
+		  
+		  int num=sc.nextInt(); 
+		  int org_Num=num;
+		 
 		//1.Use 
+		
+		
 		int rev=0;
 		
 		while(num!=0)
@@ -23,14 +27,27 @@ public class ReverseNumber {
 	
 		//check number is palindrome or not 	
 		
-		if(org_Num==rev)
+		for (; num != 0; num /= 10) 
+		
 		{
-			System.out.println("Number is palindrome ");
-			
+	    
+			rev = rev * 10 + num % 10;
+	        
 		}
-		else {
-			System.out.println("Number is not palindrome ");
-			
-		}
+	        //using string buffer reverse methode 
+		
+		long num1=123456;
+		//System.out.println(new StringBuffer(String.valueOf(num1)).reverse());
+		
+	    String string1=	String.valueOf(num1);
+		StringBuffer string=new StringBuffer(string1).reverse();
+		
+		System.out.println(string);
+		/*
+		 * if(org_Num==rev) { System.out.println("Number is palindrome ");
+		 * 
+		 * } else { System.out.println("Number is not palindrome "); }
+		 */
+		 
 	}
 }
