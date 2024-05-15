@@ -1,8 +1,8 @@
 package OopsConcept;
 
-public class Car extends Vehicle {
+public class Car  {
 
-	public void start() {
+	public static void start() {
 		System.out.println("Car----Start");
 	}
 

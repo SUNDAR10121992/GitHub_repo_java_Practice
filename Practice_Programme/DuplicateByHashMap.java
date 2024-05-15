@@ -17,23 +17,30 @@ public class DuplicateByHashMap {
 
 		{
 			Integer count = map.get(value);
-			if (count == null) {
+			if (count == null) 
+			{
 				map.put(value, 1);
 
-			} else {
-				map.put(value, ++count);
+			} 
+			else 
+			{
 
+				map.put(value, ++count);
 			}
 		}
+
 		// get value from hashMap
 
 		Set<Entry<String, Integer>> enterySet = map.entrySet();
 
-		for (Entry<String, Integer> entries : enterySet) {
+		for (Entry<String, Integer> entries : enterySet) 
+		{
 
-			if (entries.getValue() > 1) {
+			if (entries.getValue() >= 1)
+			{
 
-				System.out.println("duplicate elemet is " + entries.getKey());
+				System.out.println(entries.getValue()+ " : " + entries.getKey());
+		
 			}
 		}
 

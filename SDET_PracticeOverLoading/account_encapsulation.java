@@ -1,7 +1,5 @@
 package SDET_PracticeOverLoading;
 
-import Constructor.newclass;
-import java_Programs.staticBlock;
 
 public class account_encapsulation {
 

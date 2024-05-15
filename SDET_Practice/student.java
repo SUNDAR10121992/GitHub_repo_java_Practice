@@ -1,7 +1,5 @@
 package SDET_Practice;
 
-import Constructor.newclass;
-import Practice_Programme.charOccurances;
 
 public class student {
 	int sid;

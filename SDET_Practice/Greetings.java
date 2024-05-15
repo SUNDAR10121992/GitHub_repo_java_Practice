@@ -1,6 +1,5 @@
 package SDET_Practice;
 
-import Constructor.newclass;
 
 public class Greetings {
 

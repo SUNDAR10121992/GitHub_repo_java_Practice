@@ -13,9 +13,9 @@ public class SortingElements_InArray {
 		int len = a.length;
 		// System.out.println(len);
 
-		for (int i = 0; i < len - 1; i++)// number of passese
+		for (int i = 0; i < len ; i++)// number of passese
 		{
-			for (int j = 0; j < len - 1; j++) {
+			for (int j = 0; j <= len; j++) {
 				if (a[j] > a[j + 1]) {
 					int temp = a[j];
 					a[j] = a[j + 1];

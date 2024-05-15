@@ -23,11 +23,13 @@ public class charOccurances {
 	public static void getCharoccurances(String str, char val) {
 
 		int count = 0;
-		for (char c : str.toCharArray()) {
-			if (c == val) {
+		for (char c : str.toCharArray()) 
+		{
+			if (c == val)
+			{
 				count++;
 			}
 		}
-		System.out.println(val+ "::"+ count);
+		System.out.println(val + "::" + count);
 	}
 }

@@ -50,7 +50,7 @@ public class Array {
 	 ob[2]="$";
 	 ob[3]="1/12/1992";
 	 ob[4]=22.34;
-	 System.out.println(ob[1]);
+	 System.out.println(ob[2]);
 	 System.out.println(ob.length);
 	 
 	 
